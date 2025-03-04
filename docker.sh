@@ -41,3 +41,4 @@ else
     exit 0
 fi
 
+alias kubens='kubectl config set-context --current --namespace '
