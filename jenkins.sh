@@ -15,6 +15,8 @@ dnf module disable nodejs -y
 dnf module enable nodejs:20 -y
 dnf install nodejs -y
 yum install zip -y
+
+
 # # Exit immediately if a command exits with a non-zero status
 # set -e
 
